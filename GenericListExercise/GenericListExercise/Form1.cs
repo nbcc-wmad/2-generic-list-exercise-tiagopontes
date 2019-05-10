@@ -97,6 +97,11 @@ namespace GenericListExercise
             scoreList.Add(score);
             grades.Add(score);
 
+            score.maxpoint = 475;
+            score.letter = "A-";
+            scoreList.Add(score);
+            grades.Add(score);
+
             score.maxpoint = 500;
             score.letter = "A";
             scoreList.Add(score);
